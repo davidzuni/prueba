@@ -1,0 +1,135 @@
+body{
+	background: tomato;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.5em;
+margin: 0
+}
+h1{
+	font-size: 2.5rem;
+	line-height: 1.5em;
+	text-align: center;
+}
+h2{
+	font-size: 1rem;
+	line-height: 0.5em;
+}
+p{
+	margin-bottom: 1.6em;
+}
+.header{
+	background: #333;
+color: white;
+padding: 2rem 0;
+
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+align-items: center;
+}
+.logo{
+	letter-spacing: 15px;
+	font-size: 1.4em;
+}
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.navigation ul li{
+	display: inline-block;
+}
+.navigation ul li a{
+	display: block;
+	padding: 0.5rem 1rem;
+	transition: all 0.4s linear;
+	border-radius: 5px;
+}
+.navigation ul li a:hover {
+	background: #4a4a4a;
+}
+.main{
+	padding-top: 5rem;
+}
+.titulo{
+	font-size: 1.5rem;
+	line-height: 0.5em;
+
+}
+.footer{
+	background: black;
+	padding: 4rem 0;
+	text-align: center;
+	margin-top: -1rem;
+	
+}
+.ff{
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1rem;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 50;
+}
+.icon{
+	color: blue;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .4s
+}
+.icon-facebook{
+	background: blue;
+	
+}
+.icon-whatsapp{
+	background: green;
+}
+.icon-instagram{
+	background: #3f60A5;
+}
+.icon-twiter{
+	background: lightblue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
